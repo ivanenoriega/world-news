@@ -46,3 +46,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Custom values */
+* {
+	font-family: arial;
+}
+header,
+main {
+	padding: 1rem;
+}
+
+nav {
+	border: 1px solid gray;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+}
+
+.login-button {
+	padding: 0.3rem 0.5rem;
+	background: none;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5rem;
+}
